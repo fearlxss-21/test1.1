@@ -299,6 +299,7 @@ div#test-questions.show-next button.next {
 div#test h3 {
 	color: #176337;
     margin-bottom: 15px;
+    font-size: 20px;
 }
 
 div#test label {
@@ -394,20 +395,7 @@ button {
       
       h6 {
         font-size: 1rem; }
-      
-      @media screen and (min-width: 40em) {
-        h1 {
-          font-size: 3rem; }
-        h2 {
-          font-size: 2.5rem; }
-        h3 {
-          font-size: 1.9375rem; }
-        h4 {
-          font-size: 1.5625rem; }
-        h5 {
-          font-size: 1.25rem; }
-        h6 {
-          font-size: 1rem; } }
+    
       
       a {
         color: #2ba6cb;
@@ -461,12 +449,6 @@ a#type-site{
 
           
           
-
-
-
-
-
-
 .row {
     max-width: 62.5rem;
     margin-left: auto;
@@ -493,6 +475,18 @@ a#type-site{
         margin-right: auto; }
   
 
+@media screen and (max-width: 390px){
+  div#test h3 {
+    color: #176337;
+      margin-bottom: 15px;
+      font-size: 22px;
+  }
+  
+  div#test label {
+    font-size: 18;
+  }
+}
+
 
 
 /* Small only */
@@ -518,12 +512,22 @@ a#type-site{
       color: #eee;
       font-size: 8px;
     }
+
+    h1 {
+      font-size: 22px; }
+    h2 {
+      font-size: 22px; }
+    h3 {
+      font-size: 20px; }
+    h4 {
+      font-size: 20px; }
+    h5 {
+      font-size: 20px; }
+    h6 {
+      font-size: 1rem; } }
+  
     
 
-}
-
-/* Medium and up */
-@media screen and (min-width: 40em) {}
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -535,6 +539,7 @@ a#type-site{
         margin-left: 25px;
         margin-right: 25px; 
     }
+    
 }
 
 /* Large and up */
