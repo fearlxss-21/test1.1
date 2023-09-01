@@ -10,14 +10,13 @@
 	
 </head>
 <body>
-<div id="container" class="off-canvas-wrapper">
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-        
-		<div class="off-canvas-content" data-off-canvas-content>
-            <div class="row content">
-				<div class="small-12 columns">
 
-<div id="test" class="orbit" role="region" aria-label="اختبار تحديد الشخصية" data-orbit data-auto-play="false" data-next-class="next" data-prev-class="prev" data-swipe="false" data-use-m-u-i="false">
+    <div class="row content">
+	<div class="small-12 columns">
+
+    <div id="test" class="orbit" role="region" aria-label="اختبار تحديد الشخصية" 
+	data-orbit data-auto-play="false" data-next-class="next" data-prev-class="prev" data-swipe="false" data-use-m-u-i="false">
+
 	<ul class="orbit-container">
 		
 		<li class="orbit-slide">
@@ -223,60 +222,82 @@
 		
 		<li class="orbit-slide">
 			<div class="button-submit">
-				<button class="button" id="submit" class="btn btn-primary btn-lg">عرض النتيجة</button>
+				<a href="#results">
+				<button class="button" id="submit" class="btn btn-primary btn-lg" >عرض النتيجة</button></a>
 			</div>
 		</li>
 	</ul>
 
-	            <div id="results" class="text-center">
+	<div id="results" class="text-center">
+
         <br><br>
+
         <h2 id="type"></h2>
+
         <p id="type-details" class="type-description">
             <strong id="type-title"></strong>
             <strong><span id="type-percentage"></span>من سكان العالم</strong><br>
-            <span id="type-description"></span><br>
+            <span id="type-description"></span>
             <button> <a id="type-site" href="#" target="_blank">تعرف على المزيد حول نوعك هنا</a></button>
 			<br>
 			<br>
         </p>
+
         <p  class="pull-left"><span class="badge">الانبساط</span> (<span id="eScore"></span>%)</p>
+
         <p  class="pull-right">(<span id="iScore"></span>%) <span class="badge">الانطوائية</span></p>
+
         <div  class="progress">
-            <div id="eiChart" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div id="eiChart" class="progress-bar progress-bar-warning" role="progressbar"
+			aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
             <div class="center-bar"></div>
         </div>
+
         <br class="clearfix">
         
         <p  class="pull-left"><span class="badge">الاستشعار</span> (<span id="sScore"></span>%)</p>
+
         <p  class="pull-right">(<span id="nScore"></span>%) <span class="badge">الحدس</span></p>
+
         <div  class="progress">
-            <div id="snChart" class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div id="snChart" class="progress-bar progress-bar-primary" role="progressbar"
+			aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
             <div class="center-bar"></div>
         </div>
+
         <br class="clearfix">
         
         <p  class="pull-left"><span class="badge">التفكير</span> (<span id="tScore"></span>%)</p>
+
         <p  class="pull-right">(<span id="fScore"></span>%) <span class="badge">الشعور</span></p>
+
         <div  class="progress">
-            <div id="tfChart" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div id="tfChart" class="progress-bar progress-bar-success" role="progressbar"
+			aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
             <div class="center-bar"></div>
         </div>
+
         <br class="clearfix">
         
         <p  class="pull-left"><span class="badge">الحكم</span> (<span id="jScore"></span>%)</p>
+
         <p  class="pull-right">(<span id="pScore"></span>%) <span class="badge">الإدراك</span></p>
+
         <div  class="progress">
-            <div id="jpChart" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+            <div id="jpChart" class="progress-bar progress-bar-danger" role="progressbar"
+			aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
             <div class="center-bar"></div>
         </div>
+
         <br class="clearfix">
+
     </div>
 </div>
 
 <script src="https://psychomood.online/personality-test/jquery.js"></script>
 <script src="https://psychomood.online/personality-test/foundation.js"></script>
 <script src="https://psychomood.online/personality-test/script.js"></script>
-<script src="https://psychomood.online/personality-test/test.js"></script>
+<script src="https://psychomood.online/personality-test/testt.js"></script>
 
 
 </body>
