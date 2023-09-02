@@ -69,6 +69,7 @@ td {
 
 [type='radio'] {
   margin: 0 0 1rem;
+  cursor: pointer;
 }
 
 [type='checkbox'] + label,
