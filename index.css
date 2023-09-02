@@ -90,35 +90,18 @@ p {
     margin-bottom: 15px;
     padding: 0;
     text-align: center;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 24px;
 }
 
-.pull-all{
-  margin-left: 25px;
-}
+
 
 label{
   font-size: 18px;
   font-weight: 800;
 }
 
-.badge {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  background: #000000;
-  color: #fefefe;
-  transition: .5s;
-}
 
-.badge:hover{
-  display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  background: var(--hover-color);
-  color: #fefefe;
-}
+
 
 .label {
   display: inline-block;
@@ -160,14 +143,18 @@ div#test h3 {
     font-size: 22px;
 }
 
-div.content span {
-    color: white;
-    font-size: 18px;
+.pull-all{
+  margin-left: 25px;
+}
+
+span.badge{
+  color: #000;
+  font-size: 22px;
+  font-weight: 800;
 }
 
 span#eScore,span#iScore,span#nScore, span#sScore,span#fScore, span#tScore,span#pScore, span#jScore{
-  color: black;
-  font-size: 22px;
+  color: #176337;
   font-weight: 600;
 }
 
@@ -314,11 +301,6 @@ div.content span {
   font-size: 16px;
 }
 
-span#eScore,span#iScore,span#nScore, span#sScore,span#fScore, span#tScore,span#pScore, span#jScore{
-font-size: 20px;
-font-weight: 600;
-}
-
 }
 /* Small max*/
 @media screen and (max-width: 340px) {
@@ -358,9 +340,16 @@ font-weight: 600;
     font-size: 18px;
   }
   
-  div.content span {
-    font-size: 14px;
+  .type-percentage{
+    font-size: 18px;
   }
+  span#type-percentage{
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 22px;
+}
 }
 
 /* Small max*/
@@ -368,8 +357,8 @@ font-weight: 600;
 
 
 a#type-site{
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 800;
 }
   
 .type-percentage{
@@ -388,9 +377,20 @@ a#type-site{
     font-size: 16px;
   }
   
-  div.content span {
-    font-size: 12px;
+  span.badge{
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
   }
+  .type-percentage{
+    font-size: 16px;
+  }
+  span#type-percentage{
+    font-size: 16px;
+  }
+  p {
+    font-size: 20px;
+}
 }
 
 

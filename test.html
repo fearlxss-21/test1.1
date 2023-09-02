@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:description" content=""/>
-    <link rel="stylesheet" href="https://psychomood.online/personality-test/index.css">
+    <link rel="stylesheet" href="index.css">
 	
 </head>
 <body>
@@ -235,17 +235,19 @@
 
         <p id="type-details" class="type-description">
             <strong id="type-title"></strong>
-            <strong class="type-percentage"><span id="type-percentage"></span>من سكان العالم</strong><br>
+            
             <span id="type-description"></span>
             <button> <a id="type-site" href="#" target="_blank"> اقرأ المزيد عن نمطك</a></button>
-			<br>
-			<br>
         </p>
 
-        <div class="pull-all">
-			<p  class="pull-left"><span class="badge">الانبساط</span> (<span id="eScore"></span>%)</p>
+		<p class="type-percentage">
+			<strong ><span id="type-percentage"></span>من سكان العالم</strong><br>
+		</p>
 
-        <p  class="pull-right">(<span id="iScore"></span>%) <span class="badge">الانطوائية</span></p>
+        <div class="pull-all">
+			<p  class="pull-left"><span class="badge">اجتماعية</span> (<span id="eScore"></span>%)</p>
+
+        <p  class="pull-right"><span class="badge">الانطوائية</span> (<span id="iScore"></span>%)</p>
 
         <div  class="progress">
             <div id="eiChart" class="progress-bar progress-bar-warning" role="progressbar"
@@ -253,11 +255,10 @@
             <div class="center-bar"></div>
         </div>
 
-        <br class="clearfix">
-        
-        <p  class="pull-left"><span class="badge">الاستشعار</span> (<span id="sScore"></span>%)</p>
 
-        <p  class="pull-right">(<span id="nScore"></span>%) <span class="badge">الحدس</span></p>
+        <p  class="pull-left"><span class="badge">الحس</span> (<span id="sScore"></span>%)</p>
+
+        <p  class="pull-right"><span class="badge">الحدس</span> (<span id="nScore"></span>%)</p>
 
         <div  class="progress">
             <div id="snChart" class="progress-bar progress-bar-primary" role="progressbar"
@@ -265,11 +266,10 @@
             <div class="center-bar"></div>
         </div>
 
-        <br class="clearfix">
-        
+
         <p  class="pull-left"><span class="badge">التفكير</span> (<span id="tScore"></span>%)</p>
 
-        <p  class="pull-right">(<span id="fScore"></span>%) <span class="badge">الشعور</span></p>
+        <p  class="pull-right"><span class="badge">الشعور</span> (<span id="fScore"></span>%)</p>
 
         <div  class="progress">
             <div id="tfChart" class="progress-bar progress-bar-success" role="progressbar"
@@ -277,11 +277,10 @@
             <div class="center-bar"></div>
         </div>
 
-        <br class="clearfix">
-        
+
         <p  class="pull-left"><span class="badge">الحكم</span> (<span id="jScore"></span>%)</p>
 
-        <p  class="pull-right">(<span id="pScore"></span>%) <span class="badge">الإدراك</span></p>
+        <p  class="pull-right"><span class="badge">الإدراك</span> (<span id="pScore"></span>%)</p>
 
         <div  class="progress">
             <div id="jpChart" class="progress-bar progress-bar-danger" role="progressbar"
@@ -289,7 +288,7 @@
             <div class="center-bar"></div>
         </div>
 
-        <br class="clearfix">
+
 		</div>
 
     </div>
