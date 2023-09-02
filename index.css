@@ -84,6 +84,8 @@ td {
   margin-left: 1rem;
   margin-bottom: 0;
   vertical-align: baseline;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 
@@ -94,6 +96,10 @@ p {
     text-align: center;
     font-size: 28px;
     font-weight: 600;
+}
+
+.pull-all{
+  margin-left: 25px;
 }
 
 label{
@@ -134,7 +140,7 @@ div.content {
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
     padding: 50px 25px;
     border-radius: 25px;
-    
+
 }
 
 
@@ -192,6 +198,13 @@ span#type-percentage{
   text-align: center;
 }
 
+h2#type{
+  margin: 0 0 0 25px;
+}
+
+.type-percentage{
+  margin-left: 22px;
+}
 
 /****************************button*************************************/
 
@@ -211,6 +224,10 @@ div#test button {
     margin-top: 15px;
     font-size: 24px;
     font-weight: 800;
+}
+
+div#test .text-center button{
+  margin: 10px 0 0 25px;
 }
 
 .button-submit{
