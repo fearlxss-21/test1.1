@@ -70,12 +70,6 @@ td {
 [type='radio'] {
   margin: 0 0 1rem;
 }
-.column, .columns {
-  width: 100%;
-  float: right;
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
-}
 
 [type='checkbox'] + label,
 [type='radio'] + label {
@@ -133,16 +127,6 @@ label{
 }
 
 /* Content */
-
-div.content {
-    min-height: 100vh;
-    background: #fff;
-    margin-bottom: 25px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    padding: 50px 25px;
-    border-radius: 25px;
-
-}
 
 
 div.content h2{
@@ -284,33 +268,6 @@ a {
   clear: both;
 }
 
-.row.collapse > .column, .row.collapse > .columns {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.row .row {
-  max-width: none;
-  margin-left: -0.9375rem;
-  margin-right: -0.9375rem;
-}
-
-.row .row.collapse {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.row.expanded {
-  max-width: none;
-}
-
-.row.expanded .row {
-  margin-left: auto;
-  margin-right: auto;
-}
-  
-
-
 /* Small only */
 @media screen and (max-width: 39.9375em) {
 
@@ -405,14 +362,40 @@ font-weight: 600;
   }
 }
 
+/* Small max*/
+@media screen and (max-width: 246px) {
+
+
+a#type-site{
+  font-size: 14px;
+  font-weight: 600;
+}
+  
+.type-percentage{
+  font-size: 18px;}
+  
+.button-submit{
+  margin-top: 100px;
+  margin-left: 20px;
+  }
+
+  div.content h5{
+    font-size: 18px;
+  }
+  
+  div#test h3 {
+    font-size: 16px;
+  }
+  
+  div.content span {
+    font-size: 12px;
+  }
+}
+
 
   
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    div.section {
-        border-radius: 0;
-        padding-top: 35px;
-    }
     div.content {
         margin-left: 25px;
         margin-right: 25px; 
