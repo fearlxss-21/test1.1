@@ -343,6 +343,23 @@ margin-top: 100px;
 margin-left: 25px;
 }
 
+div.content h5{
+  font-size: 22px;
+}
+
+div#test h3 {
+  font-size: 20px;
+}
+
+div.content span {
+  font-size: 16px;
+}
+
+span#eScore,span#iScore,span#nScore, span#sScore,span#fScore, span#tScore,span#pScore, span#jScore{
+font-size: 20px;
+font-weight: 600;
+}
+
 }
 /* Small max*/
 @media screen and (max-width: 340px) {
@@ -372,6 +389,18 @@ margin-left: 25px;
   .button-submit{
   margin-top: 100px;
   margin-left: 25px;
+  }
+
+  div.content h5{
+    font-size: 20px;
+  }
+  
+  div#test h3 {
+    font-size: 18px;
+  }
+  
+  div.content span {
+    font-size: 14px;
   }
 }
 
