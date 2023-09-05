@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* root *********************************/
-:root{
-  --text-color:#f5f5f5;
-  --hover-color:#176337;
-  --bg-color:#35bc6e;
-  --secon-bg-color:#292e33;
-  --big-font:28px;
-  --normal-font:24px;
-  --neon-box-shadow:0 0 .5rem #12f7ff;
-  --small-font:20;
-  --font-neon-text-shadow:0 0 10px rgba(18,247,255,0.3),
-  0 0 20px rgba(18,247,255,0.3),
-  0 0 30px rgba(18,247,255,0.3),
-  0 0 40px rgba(18,247,255,0.3),
-  0 0 70px rgba(18,247,255,0.3),
-  0 0 80px rgba(18,247,255,0.3),
-  0 0 100px rgba(18,247,255,0.3),
-  0 0 150px rgba(18,247,255,0.3);
-}
-
 /* General ***********************/
 *{
   font-family: "Noto Naskh Arabic";
@@ -30,7 +10,6 @@ body {
   font-family: "Noto Naskh Arabic";
 }
 
-/* Formating ************************************/
 #test-questions{
   margin: 0;
   padding: 0;
@@ -143,8 +122,31 @@ div#test h3 {
     font-size: 22px;
 }
 
-.pull-all{
-  margin-left: 25px;
+.pull-all p{
+  padding: 0 5px 0 5px;
+}
+.pull-1{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pull-2{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pull-3{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.pull-4{
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 span.badge{
@@ -199,9 +201,6 @@ div#test button {
     font-weight: 800;
 }
 
-div#test .text-center button{
-  margin: 10px 0 0 25px;
-}
 
 .button-submit{
   text-align: center;
@@ -256,25 +255,9 @@ a {
   clear: both;
 }
 
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
-
-div.section {
-  border-radius: 0;
-  margin-bottom: 15px;
-  padding-top: 20px;
-}
-
-div.content {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  padding: 20px 15px;
-}
-
-div.footer {
-  border-radius: 0;
-}
 
 div.prev-next, div.prev-next p {
   text-align: center;
@@ -301,29 +284,33 @@ div.content span {
   font-size: 16px;
 }
 
+.pull-1{
+  justify-content: center;
+}
+
+.pull-2{
+  justify-content: center;
+}
+
+.pull-3{
+  justify-content: center;
+}
+
+.pull-4{
+  justify-content: center;
+}
+
 }
 /* Small max*/
 @media screen and (max-width: 340px) {
 
-  div.section {
-    border-radius: 0;
-    margin-bottom: 15px;
-    padding-top: 20px;
-  }
-  
-  div.content {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 20px 15px;
-  }
-  
+ 
   div.prev-next, div.prev-next p {
     text-align: center;
   }
   
   a#type-site{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
   }
   
@@ -349,6 +336,24 @@ div.content span {
 
   p {
     font-size: 22px;
+}
+.pull-all{
+  padding: 0;
+}
+.pull-1{
+  justify-content: center;
+}
+
+.pull-2{
+  justify-content: center;
+}
+
+.pull-3{
+  justify-content: center;
+}
+
+.pull-4{
+  justify-content: center;
 }
 }
 
@@ -391,15 +396,23 @@ a#type-site{
   p {
     font-size: 20px;
 }
+
+.pull-all{
+  padding: 0;
+}
+.pull-1{
+  justify-content: center;
 }
 
+.pull-2{
+  justify-content: center;
+}
 
-  
-/* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-    div.content {
-        margin-left: 25px;
-        margin-right: 25px; 
-    }
-    
+.pull-3{
+  justify-content: center;
+}
+
+.pull-4{
+  justify-content: center;
+}
 }
